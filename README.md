@@ -1,6 +1,6 @@
 first git clone the files, the give executable permissions by
 ```bash
-chmodd +x wifi
+chmod +x wifi
 ```
 
 install smenu
