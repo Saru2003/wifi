@@ -15,7 +15,6 @@ read -s password
 
 nmcli dev wifi connect "$p" password "$password" &>/dev/null
 
-# Check the exit status of the nmcli command
 if [ $? -eq 0 ]; then
     echo "Successfully connected to Wi-Fi network."
 else
