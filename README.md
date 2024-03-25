@@ -1,12 +1,12 @@
 first git clone the files, the give executable permissions by
 ```bash
-chmod +x wifi
+chmod +x wifi.sh
 ```
 
 install smenu
 
 use
 ```bash
-sudo cp wifi /usr/local/bin
+sudo cp wifi.sh /usr/local/bin
 ```
 then, voila
